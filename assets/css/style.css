@@ -1,0 +1,50 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: rgb(232, 218, 218);
+    width: 400px;
+    height: 600px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    color: white;
+    font-size: 30px;
+    /* padding: 0 8px; */
+    background-color: rgb(37, 54, 80);
+}
+.row{
+    display: flex;
+    height: 100px;
+
+}
+button{
+    flex: 1;
+    font-size: 30px;
+    background-color: rgb(37, 54, 80);
+    color: gray;
+    cursor: pointer;
+    
+}
+.op {
+    background-color: rgb(31, 127, 151);
+    color: white;
+}
+.opp{
+    background-color: rgb(228, 128, 32);
+    color: white;
+    /* height: 200px;
+    z-index: 2; */
+}
+
+
+/* .dot{
+    display: flex;
+    justify-content: space-around;
+} */
